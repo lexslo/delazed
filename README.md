@@ -8,6 +8,7 @@ Delazed is a digital audio effect I designed in order to create new and exciting
 ## Table of Contents
 * [Description](#description)
 * [Layout](#layout)
+* [Example](#example)
 * [Installation](#installation)
 * [Technical](#technical)
 * [Questions](#questions)
@@ -37,6 +38,31 @@ I also included a [?] button for users to click whichs opens a new window with m
 
 ### Layout
 ![Delazed Default GUI](assets/images/delazed-default-gui.png)
+
+### Example
+Please download the included MP3 file titled "delazed-musical-example" located in assets/mp3. The following serves as a listening guide for that sample:
+
+* 0:00 - Default Settings (see GUI screenshot p.1)
+* 0:04 - L Delay Time increase from 300ms to 1758ms 
+* 0:09 - R Delay Time increase from 300ms to 1670ms, decrease to 879ms
+* 0:18 - Chorus Mix increase to 100% over 4 seconds
+* 0:22 - Delay Mix increase to 91% over 5 seconds
+* 0:27 - Chorus Feedback increase to 100% over 5 seconds
+* 0:32 - Chorus Depth increase to 100% over 4 seconds 
+* 0:40 - Chorus Rate increase to 17 Hz, then decrease to 0.61 Hz
+* 0:47 - Delay Feedback increase to 101%      
+* 1:03 - Shimmer increase to 100%
+* 1:15 - Shimmer decrease to 41%
+* 1:21 - Input Gain to +6dB
+* 1:24 - Link Button pressed; L and R delay time now linked
+* 1:30 - R Delay Time rapid change back and forth 
+    - Shimmer decrease to 0%
+* 1:32 - Delay Feedback decrease to 52%
+* 1:34 - Input Gain decrease to +0 dB
+* 1:39 - Delay Mix to 0%, solo Chorus
+* 1:46 - Chorus Depth decrease to 23%
+* 1:48 - Chorus Feedback decrease to 35%
+* 1:53 - Chorus Mix decrease to 45%
 
 ### Installation
 * Mac OS
