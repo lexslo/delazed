@@ -10,6 +10,7 @@ Delazed is a digital audio effect I designed in order to create new and exciting
 * [Layout](#layout)
 * [Installation](#installation)
 * [Technical](#technical)
+* [Questions](#questions)
 * [License](#license)
 * [Credits](#credits)
 
