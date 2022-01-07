@@ -8,6 +8,7 @@ Delazed is a digital audio effect I designed in order to create new and exciting
 ## Table of Contents
 * [Description](#description)
 * [Layout](#layout)
+* [Installation](#installation)
 * [Technical](#technical)
 * [License](#license)
 * [Credits](#credits)
@@ -36,6 +37,17 @@ I also included a [?] button for users to click whichs opens a new window with m
 ### Layout
 ![Delazed Default GUI](assets/images/delazed-default-gui.png)
 
+### Installation
+* Mac OS
+    - Download the delazed.component file (this will run as an audio unit) and/or the delazed.vst3 file. 
+    - Click out to your desktop. Hold the Option key on your keyboard, and click the Go menu at the top of the screen. With the Go menu open, you'll notice that pressing and releasing Option will display or hide the Library choice in this menu. Select Library from the Go menu (while holding down Option) to access the hidden folder.
+    - Open the Audio folder. Open Plug-ins. Drag the .component file to the components folder and/or drag the .vst3 file to the VST3 folder.
+    - Open your DAW (or restart if it is already open). The loading process will scan your computer for audio units and VSTs. Once open, you will find Delazed as an effect plug-in option for Audio Unit and/or VST3 depending on which one(s) you installed.
+
+* Windows
+    - Coming soon!
+
+
 ### Technical
 I really wanted to achieve self-oscillation through the delay feedback, so I set a threshold where if feedback > 99%, the signal will be processed through the softClip function. The same is true for chorus feedback. In order to avoid signal overload from having two feedback instances, I set another threshold so that if the delay feedback + chorus feedback >= 1.0, the entire signal would be process through the softClip function.
 
@@ -45,7 +57,10 @@ The chorus feedback is also being processed through a filter — only after the 
 
 I like having ambiguous parameter names like “shimmer” and “darken” because it forces the user to use their ears more than their eyes. Since the names and ranges are a bit ambiguous, I included a [ ? ] button that opens a window with a brief explanation. The window looks like this:
 
-![Question Mark Window](assets/images/question.png)
+<img src="./assets/images/question.png" alt="Question Mark" width="240" height="260" />
+
+### Questions
+Please reach out if you have any questions or want to collaborate on future projects! Feel free to email me at lexi.slovik@gmail.com and connect with me on [LinkedIn](https://www.linkedin.com/in/lex-slovik-018979186/)
 
 ## License
 This application is covered under the GPLv3 license.
