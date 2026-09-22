@@ -87,7 +87,7 @@ I like having ambiguous parameter names like “shimmer” and “darken” beca
 <img src="./assets/images/question.png" alt="Question Mark" width="240" height="260" />
 
 ### Questions
-Please reach out if you have any questions or want to collaborate on future projects! Feel free to email me at lexi.slovik@gmail.com and connect with me on [LinkedIn](https://www.linkedin.com/in/lex-slovik-018979186/)
+Please reach out if you have any questions or want to collaborate on future projects! Feel free to email me at lexslovik@gmail.com and connect with me on [LinkedIn](https://www.linkedin.com/in/lex-meadows/)
 
 ## License
 This application is covered under the GPLv3 license.
