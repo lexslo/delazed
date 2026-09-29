@@ -82,9 +82,7 @@ I liked the idea of having some control over the timbre, so I added the shimmer 
 
 The chorus feedback is also being processed through a filter — only after the chorus feedback exceeds 80%. From 80% to 100%, the user is controlling the filter attenuation along with the chorus feedback. The frequency center is static (900 Hz) and the 80% to 100% becomes a range of 0 to -3 dB. I implemented this filter because the timbre of the chorus feedback through soft clipping was a bit overwhelming, but I still wanted the user to be able to crank it to 100%. This way the signal doesn’t overload, nor does it take over the sound with soft clipped chorus feedback.
 
-I like having ambiguous parameter names like “shimmer” and “darken” because it forces the user to use their ears more than their eyes. Since the names and ranges are a bit ambiguous, I included a [ ? ] button that opens a window with a brief explanation. The window looks like this:
-
-<img src="./assets/images/question.png" alt="Question Mark" width="240" height="260" />
+I like having ambiguous parameter names like “shimmer” and “darken” because it forces the user to use their ears more than their eyes. Since the names and ranges are a bit ambiguous, I included a [ ? ] button that opens a window with a brief explanation.
 
 ### Questions
 Please reach out if you have any questions or want to collaborate on future projects! Feel free to email me at lexslovik@gmail.com and connect with me on [LinkedIn](https://www.linkedin.com/in/lex-meadows/)
